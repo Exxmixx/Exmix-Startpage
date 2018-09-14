@@ -1,0 +1,225 @@
+@media only screen and (min-width: 1120px) {
+
+.links {
+	display: -moz-box;
+	display: -webkit-box;
+	width: 100%;
+}
+.container{
+	top: 5%;
+}
+} 
+
+@media only screen and (max-width: 1400px) {
+
+.container{
+	top: 25%;
+}
+}
+
+ 
+
+@font-face {
+	font-family: 'iosevka';
+	src:  url('iosevka-extrabold.ttf') format('ttf'),
+	local('Iosevka-ExtraBold');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'iosevka';
+	src:  url('iosevka-light.ttf') format('ttf'),
+	local('Iosevka-Light');
+	font-style: normal;
+	font-weight: lighter;
+
+}
+
+@font-face {
+	font-family: 'hermitlight';
+	src: url('fonts/hermit-light-webfont.woff2') format('woff2'),
+	url('fonts/hermit-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+html, body{
+	margin: 0;
+	padding: 0;
+	background: url(images/bg.png) no-repeat center center fixed; 
+	background-color: #141516;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+* {
+	font-family: 'hermitlight';
+	font-weight: lighter;
+	
+}
+
+.timecontainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+
+.weathercontainer {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.notescontainer {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.container {
+	top : 150px;
+	position: relative;
+	padding: 0 20px 0 20px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
+}
+
+.search_form {
+
+  	min-width: 18rem;
+}
+
+#header {
+	-webkit-box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-shadow: 1px 1px 20px 0px #000;
+	box-shadow: 1px 1px 20px 0px #000;
+	background-color: #282a36;
+	margin: 4px;
+	padding: 8px;
+	border: 5px solid #282a36;
+}
+
+#timeheader {
+	-webkit-box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-shadow: 1px 1px 20px 0px #000;
+	box-shadow: 1px 1px 20px 0px #000;
+	background-color: #282a36;
+	margin: 4px;
+	padding: 4px;
+	border: 5px solid #282a36;
+}
+
+#links {
+	display: -moz-box;
+	display: -webkit-box;
+	width: 100%;
+}
+
+.linksbox {
+	-webkit-box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-shadow: 1px 1px 20px 0px #000;
+	box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	margin: 4px;
+	padding: 8px 8px 8px 8px;
+	background-color: #282a36;
+	border: 5px solid #282a36;
+	font-size: 15px;
+}
+
+.linksbox h3 {
+	padding-bottom: 5px;
+}
+
+.linksbox a{
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.linksbox a.white:hover {
+	color: #4babdb;
+	text-decoration: underline;
+}
+
+.linksbox a.red:hover {
+	color: #ff5c57;
+	text-decoration: underline;
+}
+
+h3 {
+	display: inline;
+	font-size: 18px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.blue {
+	color: #787FFF;
+	padding: 0;
+}
+
+.red {
+	font-weight: bold;
+	color: #ff0000;
+	padding: 0;
+}
+
+.white {
+	font-weight: bold;
+	color: #ffffff;
+	padding: 0;
+}
+
+.green {
+	font-weight: bold;
+	padding: 0;
+	color: #00FF00;
+}
+
+form {
+	display: inline;
+}
+
+input 	{
+	display: inline;
+	background: none;
+	display: inline;
+	border: none;
+	color: #FFF;
+	width: 70%;
+	font-size: 14px;
+}
+
+@font-face {
+    font-family: 'hermitlight';
+    src: url('hermit-light-webfont.eot');
+    src: url('hermit-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('hermit-light-webfont.woff2') format('woff2'),
+         url('hermit-light-webfont.woff') format('woff'),
+         url('hermit-light-webfont.ttf') format('truetype'),
+         url('hermit-light-webfont.svg#hermitlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
